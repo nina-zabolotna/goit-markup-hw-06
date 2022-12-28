@@ -224,21 +224,21 @@
         <div class="soc-media-div">
             <p class="soc-media-p">Social media</p>
             <ul class="soc-media-list">
-                <li class="social-media-list-item">
+                <li class="soc-media-list-item">
                     <a href="#" class="social-list-link-footer">
                         <svg class="social-icon-footer" width="24px" height="24px">
                             <use href="./images/svg/sprite-svg.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-media-list-item">
+                <li class="soc-media-list-item">
                     <a href="#" class="social-list-link-footer">
                         <svg class="social-icon-footer" width="24px" height="24px">
                             <use href="./images/svg/sprite-svg.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-media-list-item">
+                <li class="soc-media-list-item">
                     <a href="#" class="social-list-link-footer">
                         <svg class="social-icon-footer" width="24px" height="24px">
                             <use href="./images/svg/sprite-svg.svg#icon-facebook"></use>
@@ -254,7 +254,24 @@
                 </li>
             </ul>
         </div>
-    </div>
+        <form class="subscribe-div">
+            <label class="subscribe-label">
+                <p class="subscribe-form-input-desc">Subscribe</p>
+                <input 
+                type="email" 
+                class="subscribe-form-input" 
+                name="subscribe-email" 
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+                placeholder="E-mail">
+            </label>
+            <button type="submit" class="subscribe-form-submit">Subscribe
+                <svg class="subsctibe-icon" width="24px" height="24px">
+                    <use href="./images/svg/sprite-svg.svg#icon-subscribe"></use>
+                </svg>
+            </button>
+        </form>
+    </div>     
 </footer>
 <script src="./js/modal.js"></script>
 </body>
